@@ -1,0 +1,48 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class user {
+    public static void main(String[] args) {
+        String name;
+        String course;
+        String sid;
+        int j=1;
+        int py=1;
+        int ph=1;
+            Scanner s= new Scanner(System.in);
+        boolean a=;
+        while (a){
+        System.out.println("Enter Name");
+        name= s.next();
+        System.out.println("Name of course:");
+        course = s.next();
+        if(course.equals("java")){
+            System.out.println("student sid is:"+course+j);
+            j++;
+        }else{
+            if(course.equals("python")){
+            System.out.println("student sid is:"+course+py);
+            j++;
+            }else{
+                if(course.equals("php")){
+            System.out.println("student sid is:"+course+ph);
+            j++;
+            }else{
+                System.out.println("invalid input");
+            }
+        }
+        }
+        System.out.println("type yes to continue and no to exit");
+        String yn=s.next();
+        if (yn.equals("yes")){
+            boolean a = true;
+        }else{
+            if(yn.equals("no")){
+                boolean a = false;
+            }
+        }
+            
+        }
+        
+    }
+}
